@@ -16,3 +16,8 @@ This is the third project of the Community Blockstars 2019 - Ethereum Developer 
 * Let players bet previous winnings.
 * Entince the players to play.
 
+## Install for development
+
+```
+npm install webpack web3 webpack-cli file-loader
+```
