@@ -1,6 +1,14 @@
+[![Build Status](https://travis-ci.org/atik-lab/b9lab-rockpaperscissors.svg)](https://travis-ci.org/atik-lab/b9lab-rockpaperscissors)
+
 # b9lab RockPaperScissors
 
 This is the third project of the Community Blockstars 2019 - Ethereum Developer Course.
+
+## Install
+
+```
+npm install webpack web3 webpack-cli file-loader
+```
 
 ## What
 
@@ -25,16 +33,9 @@ This is the third project of the Community Blockstars 2019 - Ethereum Developer 
 * Did you let Alice cancel the game when she saw that Bob's pending move will make her lose?
 * No damaging loophole on the RockPaperScissors.
 * Game theoretic situations covered in RockPaperScissors.
-* Use interfaces
 
 ## Thoughts...
 
 * Alice creates a game with a bet, and a coded move with a password (bytes32) and the move (1, 2, 3).
 * Bob joins a game with the same bet, his move is public.
-* Now Alice can get the reward if winner with her password, or wait until expired then Bob can get the reward.
-
-## Install for development
-
-```
-npm install webpack web3 webpack-cli file-loader
-```
+* Now Alice can reveal the result by showing her move and password. This will unlock the withdrawals.
