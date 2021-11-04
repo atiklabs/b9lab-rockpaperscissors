@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/atik-lab/b9lab-rockpaperscissors.svg)](https://travis-ci.org/atik-lab/b9lab-rockpaperscissors)
+[![Build Status](https://travis-ci.org/atiklabs/b9lab-rockpaperscissors.svg)](https://travis-ci.org/atiklabs/b9lab-rockpaperscissors)
 
 # b9lab RockPaperScissors
 
